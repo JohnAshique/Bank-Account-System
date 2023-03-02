@@ -1,7 +1,7 @@
 class Bank_Account:
-    def __init__(self):
+    def __init__(self,id):
+        self.id = id
         self.balance = 0
-        print("Hello!!! Welcome to the Deposit & Withdrawal Machine")
 
     def deposit(self):
         amount = float(input("Enter amount to be Deposited: "))
